@@ -1,3 +1,170 @@
-*{
-  margin:0;
+/* - SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "outfit", sans-serif;
+  line-height: 1.2rem;
+  background-color: hsl(30, 54%, 90%);
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+
+}
+
+.container {
+  max-width: 50rem;
+  padding: 2.4rem;
+  margin: 6.4rem auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.0rem;
+}
+
+/* ****HEADER**** */
+.recipe-section {
+  margin-bottom: 3.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.recipe-img {
+  border-radius: 0.5rem;
+  margin-bottom: 3.2rem;
+}
+
+h1 {
+  font-family: "young serif";
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+  color: hsl(24, 5%, 18%);
+}
+
+.recipe-text {
+  line-height: 1.6rem;
+}
+
+/* ****PREPARATION**** */
+
+.section-prep {
+  padding: 2.4rem;
+  background-color: hsl(330, 100%, 98%);
+  font-family: "outfit";
+  margin-bottom: 3.2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  color: hsl(332, 51%, 32%);
+}
+
+.recipe-prep-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 0 2.0rem;
+}
+
+.prep-list {
+  padding: 0 0 0 1.2rem;
+  align-items: center;
+}
+
+span {
+  font-weight: 700;
+}
+
+/* ****INGREDIENTS**** */
+
+
+.section-ingredient {
+  margin-bottom: 2.4rem;
+
+}
+
+h2 {
+  font-size: 2.0rem;
+  font-family: "young serif";
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 2.4rem;
+  font-weight: 400;
+}
+
+ul,
+.ingredient-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 0 0 0 1.6rem;
+  line-height: 1.5;
+}
+
+.ing-list {
+  padding: 0 0 0 1.2rem;
+  align-items: center;
+}
+
+/* ****INSTRUCTION**** */
+
+.section-instruct {
+  margin-bottom: 2.4rem;
+  padding: 2.4rem 0;
+  border-top: 1px solid hsl(30, 18%, 87%);
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+
+}
+
+
+.instruct-list {
+  list-style: number;
+}
+
+.ins-list {
+  padding: 0 0 0 1.6rem;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+/* ****Nutrition**** */
+
+.nutri-table {
+  width: 100%;
+}
+
+.nutri-text {
+  margin-bottom: 1.6rem;
+}
+
+td,
+th {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 0.8rem;
+}
+
+.last-table {
+  border: none;
+}
+
+th {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+
 }
